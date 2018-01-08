@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 int main(void) {
-	int num,result,temp,sum=0;
-	scanf("%d",&num);
+	long int num,result,temp,sum=0;
+	scanf("%ld",&num);
 	temp=num;
 	while(num!=0)
 	{
