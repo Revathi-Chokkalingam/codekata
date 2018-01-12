@@ -20,7 +20,7 @@ next=first+second;
 
 
 }
-printf("%d\n",next);
+printf("%d ",next);
 }
 
 
