@@ -1,13 +1,8 @@
-include<stdio.h>
+#include<stdio.h>
 int main(void)
 {
-long int n,count=0;
+long int n;
 scanf("%ld",&n);
-while(n!=0)
-{
-n=n/10;
-count++;
-}
-printf("%ld,count);
+printf("%ld",(n+1));
 return 0;
 }
