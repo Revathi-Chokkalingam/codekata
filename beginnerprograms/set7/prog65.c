@@ -1,8 +1,13 @@
 #include<stdio.h>
+#include<string.h>
 int main(void)
 {
-if(printf("hello world"))
+	char ch[100];
+if(gets(ch))
 {
+	if(puts(ch))
+	{}
+
 }
 return 0;
 }
