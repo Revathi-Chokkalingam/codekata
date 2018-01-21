@@ -1,18 +1,23 @@
 #include <stdio.h>
 #include<string.h>
-int main(void) {
-char ch[100];
-int i,k,count=0;
-gets(ch);
-for(k=0;ch[k]!='\0';++k)
+int main()
 {
-	
-}
-for(i=0;i<k;i++)
-{
-	if(isdigit(ch[i]))
-	count++;
-}
-printf("%d",count);
-	return 0;
+    char ch[100];
+    gets(ch);
+    int k,i,temp=0,temp1=0,temp2=0;
+    k=strlen(ch);
+    for(i=0;i<k;i++)
+    {
+    	if(ch[i]>='a'&&ch[i]<='z')
+    	temp++;
+    	else if(ch[i]>='A'||ch[i]<='Z')
+    	temp1++;
+    	if(ch[i]>='0'||ch[i]<='9')
+    	temp2++;
+    }
+    if(temp!=0&&temp1!=0&&temp2!=0)
+    printf("yes");
+    else
+    printf("no");
+    return 0;
 }
