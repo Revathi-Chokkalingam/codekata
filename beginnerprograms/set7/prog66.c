@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main()
 {
-    int n,i,temp=0;
+    int n,i,p=0;
 
     scanf("%d",&n);
 
@@ -10,12 +10,12 @@ int main()
        
         if(n%i==0)
         {
-            temp++;
+            p++;
             break;
         }
     }
 
-    if (temp==0)
+    if (p==0)
         printf("yes");
     else
         printf("no");
