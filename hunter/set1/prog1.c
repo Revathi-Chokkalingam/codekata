@@ -22,7 +22,7 @@ int main(void) {
 	{
 		if(freq[q]>1)
 		{
-			printf("%d",q);
+			printf("%d ",q);
 		}
 	}
 	return 0;
